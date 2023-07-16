@@ -486,6 +486,10 @@ main {
   #NOLAN
 \*-----------------------------------*/
 
+/**
+* #introduction
+*/
+
 .nolan .nolan-title { margin-bottom: 15px; }
 
 .nolan-text {
@@ -541,8 +545,42 @@ main {
 .service-item-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
-  font-weight: var(--fw-3);
+  font-weight: var(--fw-300);
   line-height: 1.6;
+}
+
+/**
+* #next
+*/
+
+.next-subtitle {
+  color: #1C9CF6;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.next-text  {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.email-link {
+  color: #1C9CF6;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  
+}
+
+.linkedin-link {
+  color: #1C9CF6;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  display: inline;
 }
 
 
