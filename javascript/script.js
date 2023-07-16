@@ -75,74 +75,52 @@ for (let i = 0; i < filterBtn.length; i++) {
 }
 
 
-
 // contact form variables
-// const form = document.querySelector("[data-form]");
-// const formInputs = document.querySelectorAll("[data-form-input]");
-// const formBtn = document.querySelector("[data-form-btn]");
 
-// // add event to all form input field
-// for (let i = 0; i < formInputs.length; i++) {
-//   formInputs[i].addEventListener("input", function () {
+// // Get the form element
+// const form = document.querySelector('[data-form]');
 
-//     // check form validation
-//     if (form.checkValidity()) {
-//       formBtn.removeAttribute("disabled");
-//     } else {
-//       formBtn.setAttribute("disabled", "");
+// // Add an event listener for form submission
+// form.addEventListener('submit', function (event) {
+//   event.preventDefault(); // Prevent default form submission
+
+//   // Get the form inputs
+//   const nameInput = document.getElementById('name');
+//   const emailInput = document.getElementById('email');
+//   const messageInput = document.getElementById('message');
+
+//   // Get the input values
+//   const name = nameInput.value;
+//   const email = emailInput.value;
+//   const message = messageInput.value;
+
+//   // Create an object with the form data
+//   const formData = {
+//     fullname: name,
+//     email: email,
+//     message: message
+//   };
+
+//   // Send the form data to the server using fetch
+//   fetch('backend.php', {
+//     method: 'POST',
+//     body: JSON.stringify(formData),
+//     headers: {
+//       'Content-Type': 'application/json'
 //     }
+//   })
+//     .then(function (response) {
+//       // Handle the response if needed
+//     })
+//     .catch(function (error) {
+//       // Handle any errors that occur during the request
+//     });
 
-//   });
-// }
-
-
-// contact form variables
-
-// Get the form element
-const form = document.querySelector('[data-form]');
-
-// Add an event listener for form submission
-form.addEventListener('submit', function (event) {
-  event.preventDefault(); // Prevent default form submission
-
-  // Get the form inputs
-  const nameInput = document.getElementById('name');
-  const emailInput = document.getElementById('email');
-  const messageInput = document.getElementById('message');
-
-  // Get the input values
-  const name = nameInput.value;
-  const email = emailInput.value;
-  const message = messageInput.value;
-
-  // Create an object with the form data
-  const formData = {
-    fullname: name,
-    email: email,
-    message: message
-  };
-
-  // Send the form data to the server using fetch
-  fetch('backend.php', {
-    method: 'POST',
-    body: JSON.stringify(formData),
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  })
-    .then(function (response) {
-      // Handle the response if needed
-    })
-    .catch(function (error) {
-      // Handle any errors that occur during the request
-    });
-
-  // Reset the form inputs
-  nameInput.value = '';
-  emailInput.value = '';
-  messageInput.value = '';
-});
-
+//   // Reset the form inputs
+//   nameInput.value = '';
+//   emailInput.value = '';
+//   messageInput.value = '';
+// });
 
 
 // page navigation variables
