@@ -1,10 +1,10 @@
-# Nolan's Personal Portfolio
+# Nolan's Personal Portfolio 👨‍💻
 
 ![Nolan's Personal Portfolio Website](./images/nolan-s-portfolio-website.png)
 
-This personal portfolio website boasts a fully responsive, application-like design that seamlessly adapts to all devices.
+This personal portfolio website boasts a fully responsive, application-like design that seamlessly adapts to all devices. 📱 💻
 
-# Features
+# Features 🚀
 
 - Minimal Design
 - Application-like Design
@@ -14,7 +14,7 @@ This personal portfolio website boasts a fully responsive, application-like desi
 - Contact form using Formspree.io
 - Dark Mode
 
-# Sections
+# Sections 🖥
 
 - Nolan (Main)
 - Sidebar
@@ -24,7 +24,7 @@ This personal portfolio website boasts a fully responsive, application-like desi
 - Project
 - Contact
 
-# Technologies Used
+# Technologies Used ⚙
 
 This project was built using these technologies:
 
@@ -37,17 +37,17 @@ This project was built using these technologies:
 - Formspree
 - Ion-icon
 
-# License
+# License 📄
 
 The project is available as open source under the terms of the [MIT License](https://github.com/i-am-nolan25/Personal-Portfolio/blob/7debe883a958fa446a23434b655d6d732edb58e6/LICENSE).
 
-# Troubleshooting
+# Troubleshooting 🛠
 
 Please create an [issue](https://github.com/i-am-nolan25/Personal-Portfolio/issues).
 
-# Acknowledgment
+# Acknowledgment 🎊
 
 The project drew inspiration from [codewithsadee](https://github.com/codewithsadee) and underwent substantial modifications.
 
-# Contact
+# Contact 📬
 For any inquiries, feedback, or collaboration opportunities, please feel free to reach out to me through my [email](nl020@bucknell.edu) or [LinkedIn](https://www.linkedin.com/in/naing-oo-lwin-nolan/).
