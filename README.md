@@ -1,5 +1,7 @@
 # Nolan's Personal Portfolio
 
+![Nolan's Personal Portfolio Website](./images/nolan-s-portfolio-website.png)
+
 This personal portfolio website boasts a fully responsive, application-like design that seamlessly adapts to all devices.
 
 # Features
@@ -48,4 +50,4 @@ Please create an [issue](https://github.com/i-am-nolan25/Personal-Portfolio/issu
 The project drew inspiration from [codewithsadee](https://github.com/codewithsadee) and underwent substantial modifications.
 
 # Contact
-For any inquiries, feedback, or collaboration opportunities, please feel free to reach out to me through my [email](nl020@bucknell.edu) or [LinkedIn] (https://www.linkedin.com/in/naing-oo-lwin-nolan/).
+For any inquiries, feedback, or collaboration opportunities, please feel free to reach out to me through my [email](nl020@bucknell.edu) or [LinkedIn](https://www.linkedin.com/in/naing-oo-lwin-nolan/).
