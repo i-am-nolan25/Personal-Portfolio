@@ -1,4 +1,4 @@
-# Nolan's Personal Portfolio 👨‍💻
+# Nolan's Personal Portfolio
 
 ![Nolan's Personal Portfolio Website](./images/nolan-s-portfolio-website.png)
 
