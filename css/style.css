@@ -585,6 +585,62 @@ main {
 
 
 /*-----------------------------------*\
+  #ABOUT
+\*-----------------------------------*/
+
+/**
+ * detailed introduction
+ */
+
+.intro{
+  display: flex;
+  align-items: center;
+}
+
+.intro-name {
+  color: var(--white-1);
+  font-size: var(--fs-3);
+  font-weight: var(--fw-600);
+  letter-spacing: -0.25px;
+  margin-bottom: 10px;
+}
+
+.fullname {
+  margin: 0;
+  padding: 0;
+}
+
+.name-pronunciation {
+  color:  var(--white-1);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-300);
+  letter-spacing: -0.25px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.pronounced-as  {
+  margin: 0;
+  padding: 0;
+}
+
+.intro-pronunciation {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.audio-icon {
+  color: var(--white-1);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.audio-icon:hover  {
+  color: #1C9CF6;
+}
+
+
+/*-----------------------------------*\
   #RESUME
 \*-----------------------------------*/
 

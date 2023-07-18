@@ -1,10 +1,8 @@
 'use strict';
 
 
-
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
-
 
 
 // sidebar variables
@@ -13,7 +11,6 @@ const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
 // sidebar toggle functionality for mobile
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
-
 
 
 // custom select variables
@@ -144,3 +141,16 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+// introduction audio
+const audioElement = document.querySelector(".pronunciation-audio");
+const audioIcon = document.querySelector(".audio-icon");
+
+audioIcon.addEventListener("click", () => {
+  if (audioElement.paused) {
+    audioElement.play();
+  } else {
+    audioElement.pause();
+  }
+});
