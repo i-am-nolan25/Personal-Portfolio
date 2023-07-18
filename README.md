@@ -1,6 +1,6 @@
 # Nolan's Personal Portfolio
 
-![Nolan's Personal Portfolio Website](./images/nolan-s-portfolio-website.png)
+![Nolan's Personal Portfolio Website](./img/nolan-s-portfolio-website.png)
 
 This personal portfolio website boasts a fully responsive, application-like design that seamlessly adapts to all devices. 📱 💻
 
