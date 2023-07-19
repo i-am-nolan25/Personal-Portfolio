@@ -7,10 +7,11 @@ This personal portfolio website boasts a fully responsive, application-like desi
 # Features 🚀
 
 - Minimal Design
-- Application-like Design
+- Application-like user interface and experience
 - Fully responsive for all devices
 - Easy to Browse
 - Easy to customize details
+- Instagram profile supported using Instagram Basic Display API
 - Contact form using Formspree.io
 - Dark Mode
 
@@ -34,6 +35,7 @@ This project was built using these technologies:
 - Visual Studio Code
 - Git
 - Github
+- Instagram Basic Display API
 - Formspree
 - Ion-icon
 
