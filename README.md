@@ -28,8 +28,8 @@ This personal portfolio website boasts a fully responsive, application-like desi
 
 This project was built using these technologies:
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - Visual Studio Code
 - Git
