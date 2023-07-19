@@ -34,6 +34,7 @@ This project was built using these technologies:
 - Visual Studio Code
 - Git
 - Github
+- Instagram Basic Display API
 - Formspree
 - Ion-icon
 
