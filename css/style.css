@@ -639,6 +639,27 @@ main {
   color: #1C9CF6;
 }
 
+.nolan-photo  {
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.nolan-name {
+  color: #1C9CF6;
+  font-size: var(--fs-4);
+  font-weight: var(--fw-600);
+  letter-spacing: -0.25px;
+  margin-bottom: 10px;
+  display: inline;
+}
+
+.intro-text {
+  color: var(--white-2);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-300);
+  letter-spacing: -0.25px;
+  margin-bottom: 10px;
+}
 
 /*-----------------------------------*\
   #RESUME
@@ -756,7 +777,7 @@ main {
   background-color: #1C9CF6;
   color:  var(--white-1);
   border: none;
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
