@@ -144,13 +144,13 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 
 // introduction audio
-const audioElement = document.querySelector(".pronunciation-audio");
-const audioIcon = document.querySelector(".audio-icon");
-
 audioIcon.addEventListener("click", () => {
+  console.log("Audio Icon Clicked");
   if (audioElement.paused) {
+    console.log("Audio Play");
     audioElement.play();
   } else {
+    console.log("Audio Pause");
     audioElement.pause();
   }
 });
