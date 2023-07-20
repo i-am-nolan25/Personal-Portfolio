@@ -159,10 +159,10 @@ audioIcon.addEventListener("click", () => {
 // Instagram Basic Display API
 
 //Generate access token using meta for developers
-const accessToken = 'IGQVJYaXlNVno0X0o1OGpnclpOU0o1aDA4enFLR1RWV1p1bXdqX01qcUdMM3BRYVdZAejk3ZAnR3eGFyUWVmek51alk2SHNkWklHNllQaGhXWC1qYTRoaTI4NmxkVWs3TjB1ZAXJkdXFpbVpDZAm9hblNSNAZDZD';
+const accessToken = process.env.API_ACCESS_TOKEN;
 
 //Generate user id using "https://graph.instagram.com/me?fields=id,username&access_token="
-const userId = '6368860399876693';
+const userId = process.env.USER_ID;
 
 const instagramFeed = document.getElementById('instagram-feed');
 
@@ -175,14 +175,14 @@ async function fetchMedia(url) {
 
 // Fetch a specific number of media items from the user's Instagram feed using custom batching
 async function fetchInstagramMediaWithLimit(desiredLimit) {
-  const batchLimit = 50; // Number of media items to fetch in each batch
+  const batchLimit = 100; // Number of media items to fetch in each batch
   let allMedia = [];
   let nextPageURL = null;
 
   while (allMedia.length < desiredLimit) {
     const batchURL = nextPageURL
       ? nextPageURL
-      : `https://graph.instagram.com/6368860399876693/media?fields=id,media_type,media_url,permalink,timestamp,caption&access_token=IGQVJYaXlNVno0X0o1OGpnclpOU0o1aDA4enFLR1RWV1p1bXdqX01qcUdMM3BRYVdZAejk3ZAnR3eGFyUWVmek51alk2SHNkWklHNllQaGhXWC1qYTRoaTI4NmxkVWs3TjB1ZAXJkdXFpbVpDZAm9hblNSNAZDZD&limit=100`;
+      : `https://graph.instagram.com/${userId}/media?fields=id,media_type,media_url,permalink,timestamp,caption&access_token=${accessToken}&limit=${batchLimit}`;
 
     const { data, paging } = await fetchMedia(batchURL);
 
