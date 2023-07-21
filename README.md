@@ -49,7 +49,7 @@ Please create an [issue](https://github.com/i-am-nolan25/Personal-Portfolio/issu
 
 # Acknowledgment 🎊
 
-The project drew inspiration from [codewithsadee](https://github.com/codewithsadee) and underwent substantial modifications. The project also used [dotenv](https://github.com/motdotla/dotenv) from [Scott Motte](https://github.com/motdotla) to secure the [Instagram Basic Display API](https://developers.facebook.com/docs/instagram-basic-display-api/) access token and key. This project was built using Node.js (https://nodejs.org/), a powerful JavaScript runtime that allowed us to run server-side code and build scalable applications. I am grateful to the Node.js community for their contributions and support.
+The project drew inspiration from [codewithsadee](https://github.com/codewithsadee) and underwent substantial modifications. The project also used [dotenv](https://github.com/motdotla/dotenv) from [Scott Motte](https://github.com/motdotla) to secure the [Instagram Basic Display API](https://developers.facebook.com/docs/instagram-basic-display-api/) access token and key. This project was built using [Node.js](https://nodejs.org/), a powerful JavaScript runtime that allowed us to run server-side code and build scalable applications. I am grateful to the Node.js community for their contributions and support.
 
 
 # Contact 📬
