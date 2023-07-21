@@ -32,6 +32,10 @@ This project was built using these technologies:
 - HTML
 - CSS
 - JavaScript
+- Node.js
+- Bundle.js
+- Babel.js
+- dotenv
 - Visual Studio Code
 - Git
 - Github
