@@ -159,7 +159,7 @@ audioIcon.addEventListener("click", () => {
 // Instagram Basic Display API
 
 //Generate access token using meta for developers
-const accessToken = process.env.API_ACCESS_TOKEN;
+const accessToken = process.env.ACCESS_TOKEN;
 
 //Generate user id using "https://graph.instagram.com/me?fields=id,username&access_token="
 const userId = process.env.USER_ID;
