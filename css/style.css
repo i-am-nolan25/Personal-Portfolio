@@ -750,7 +750,7 @@ main {
 
 
 /**
- * education and experience 
+ * education, experience, and certifications
  */
 
 .timeline { margin-bottom: 30px; }
@@ -841,6 +841,48 @@ main {
   line-height: 2;
 }
 
+.issuing-organization-name {
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  color: var(--white-1);
+  padding-bottom: 3px;
+}
+
+.issuing-organization-name:hover {
+  font-weight: var(--fw-600);
+  color: var(--white-1);
+}
+
+.issued-date  {
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  color: var(--light-gray-70);
+  padding-bottom: 10px;
+}
+
+.credential {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color:  var(--white-1);
+  border: 1px solid var(--white-1);
+  border-color: var(--white-1);
+  padding: 3px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.credential-text  {
+  margin-right: 8px;
+  color: var(--white-1);
+}
+
+.credential ion-icon  {
+  font-size: 15px;
+  vertical-align: middle;
+  color: var(--white-1);
+}
+
 
 /**
 * download resume
@@ -865,6 +907,7 @@ main {
   display: inline-block;
   font-size: var(--fs-7);
   margin: 4px 2px;
+  margin-top: 20px;
   cursor: pointer;
   white-space: nowrap;
 }
