@@ -305,9 +305,14 @@ main {
 }
 
 .avatar-box {
-  background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  background: var(--bg-gradient-onyx);
 }
+
+.nolan-avatar { 
+  width: 80px;
+  border-radius: 20%;
+ }
 
 .info-content .name {
   color: var(--white-2);
@@ -1367,9 +1372,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; }
+  .avatar-box { 
+    border-radius: 30px; 
+  }
 
-  .avatar-box img { width: 120px; }
+  .nolan-avatar { width: 120px; }
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1740,7 +1747,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .nolan-avatar { width: 150px; }
 
   .info-content .name {
     white-space: nowrap;
