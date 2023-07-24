@@ -665,8 +665,8 @@ main {
 }
 
 .nolan-logo {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-right: 20px;
   margin-bottom: 10px;
@@ -674,7 +674,7 @@ main {
 
 .username {
   color: var(--white-2);
-  font-size: var(--fs-6);
+  font-size: var(--fs-4);
   font-weight: var(--fw-600);
   letter-spacing: -0.25px;
   margin-right: 10px;
@@ -682,19 +682,71 @@ main {
 }
 
 .bluemark {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   margin-bottom: 10px;
 }
 
-.follow-button  {
-  padding: 2px 30px;
-  background-color: var(--blue);
-  color:  var(--white-1);
-  border: none;
-  border-radius: 5px;
+.follow-button {
+  position: relative;
+  width: 150px;
+  height: 35px;
+  border-radius: 30px;
+  background-color: var(--bg-gradient-jet);
+  overflow: hidden;
   cursor: pointer;
   margin-bottom: 10px;
+}
+
+.text1 {
+  text-align: center;
+  font-size: 13px;
+  font-weight: var(--fw-500);
+  margin-top: 7px;
+  margin-left: 20%;
+  color: var(--white-1)
+}
+
+.text2 {
+  position: absolute;
+  top: 7px;
+  left: -90px;
+  font-weight: var(--fw-600);
+  font-size: 13px;
+  color: var(--white-1);
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s;
+}
+
+.icon::before {
+  position: absolute;
+  left: -115px;
+  top: 0;
+  z-index: -1;
+  content: '';
+  width: 150px;
+  height: 33px;
+  border-radius: 30px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, var(--blue) 90%);
+}
+
+.follow-button:hover .icon {
+  transform: translateX(115px);
+  transition: transform 0.5s;
+}
+
+.follow-button:hover .text2 {
+  transform: translateX(115px);
+  transition: transform 0.6s;
+}
+
+.follow-button:active {
+  transform: scale(1.03);
 }
 
 /**
