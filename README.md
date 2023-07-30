@@ -50,7 +50,7 @@ The project is available as open source under the terms of the [MIT License](htt
 
 # Troubleshooting 🛠
 
-Please create an [issue](https://github.com/i-am-nolan25/Personal-Portfolio/issues).
+Please create an [issue](https://github.com/i-am-nolan25/Personal-Portfolio/issues/new).
 
 # Acknowledgment 🎊
 
