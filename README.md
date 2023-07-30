@@ -27,7 +27,7 @@ This personal portfolio website boasts a fully responsive, application-like desi
 
 # Technologies Used ⚙
 
-This project was built using these technologies:
+I utilize a variety of technologies in my *Personal Portfolio* project, including, but not limited to, the following:
 
 - HTML
 - CSS
