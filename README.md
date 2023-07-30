@@ -12,7 +12,7 @@ This personal portfolio website boasts a fully responsive, application-like desi
 - Fully responsive for all devices
 - Easy to browse
 - Easy to customize details
-- An Instagram profile supported using *Instagram Basic Display API*
+- Instagram profile supported using *Instagram Basic Display API*
 - Contact form using *Formspree.io*
 
 # Sections 🖥
