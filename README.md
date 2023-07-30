@@ -35,6 +35,7 @@ I utilize a variety of technologies in my *Personal Portfolio* project, includin
 - Node.js
 - Bundle.js
 - Babel.js
+- PHP
 - dotenv
 - Visual Studio Code
 - Git
