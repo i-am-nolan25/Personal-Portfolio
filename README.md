@@ -6,14 +6,14 @@ This personal portfolio website boasts a fully responsive, application-like desi
 
 # Features 🚀
 
-- Minimal Design
+- User-friendly
+- Minimal design
 - Application-like user interface and experience
 - Fully responsive for all devices
-- Easy to Browse
+- Easy to browse
 - Easy to customize details
-- Instagram profile supported using Instagram Basic Display API
-- Contact form using Formspree.io
-- Dark Mode
+- An Instagram profile supported using *Instagram Basic Display API*
+- Contact form using *Formspree.io*
 
 # Sections 🖥
 
