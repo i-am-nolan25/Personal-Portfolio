@@ -886,6 +886,12 @@ main {
   line-height: 1.6;
 }
 
+.achievement-list {
+    color: var(--light-gray);
+    font-weight: var(--fw-300);
+    line-height: 2;
+}
+
 .achievement-item {
   color: var(--light-gray);
   font-weight: var(--fw-300);
