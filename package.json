@@ -8,7 +8,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack serve --mode development --open",
+    "dev": "webpack serve --mode development",
+    "watch": "webpack --watch --mode development",
+    "clean": "rm -rf dist",
+    "build:prod": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
@@ -28,7 +33,8 @@
     "terser-webpack-plugin": "^5.3.9",
     "util": "^0.12.5",
     "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.1"
   },
   "dependencies": {
     "dotenv": "^16.3.1",

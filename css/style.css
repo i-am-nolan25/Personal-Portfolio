@@ -362,7 +362,10 @@ main {
 .info_more-btn:hover::before,
 .info_more-btn:focus::before { background: var(--bg-gradient-blue-2); }
 
-.info_more-btn span { display: none; }
+.info_more-btn span { 
+  display: block; /* Show by default in mobile */
+  font-size: var(--fs-8);
+}
 
 .sidebar-info_more {
   opacity: 0;
@@ -1762,11 +1765,16 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .info-content .title { margin: auto; }
 
-  .info_more-btn { display: none; }
-
+  /* Only hide the button in desktop view */
+  .info_more-btn { 
+    display: none;
+  }
+  
+  /* Always show contacts in desktop view */
   .sidebar-info_more {
     opacity: 1;
     visibility: visible;
+    display: block;
   }
 
   .contacts-list { grid-template-columns: 1fr; }
@@ -1796,4 +1804,54 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+/* Add styles for mobile and tablet views */
+@media (max-width: 1249px) {
+  .sidebar-info_more {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    transition: var(--transition-2);
+  }
+
+  .sidebar.active .sidebar-info_more {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+  }
+
+  .info_more-btn {
+    display: block;
+  }
+}
+
+/* YouTube Video Section */
+.youtube-video {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.video-title {
+  margin-bottom: 20px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
